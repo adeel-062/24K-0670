@@ -5,10 +5,8 @@ If so, determine if it’s an even number or odd number as well.
 [We will use the modulus/remainder (%) operator which yields a remainder when the first operand is divided by the second]
 
 1. Start by inputting values of M and N
-
 2. Check if N is a divisor of M
        N is a divisor of M only if M % N == 0
-
 3. If N is a divisor of M, determine if N is even or odd
        N is even if N % 2 == 0 
        N is odd if N % 2 != 0
@@ -16,3 +14,30 @@ If so, determine if it’s an even number or odd number as well.
 
 
 Algorithm Problem 2:
+Implement an algorithm where the user enters a number, and an appropriate month is displayed.
+
+[We will set the months of the year to their corresponding numbers from 1 to 12 for e.g. January = 1, February = 2.....November = 11, Deceember = 12]
+
+1. Start by asking the user for a number from 1 to 12
+2. If the number is within that range, display the month corresponding to it
+3. If the number is outiside of that range, display an error message "Invalid number! Please enter a number between 1 and 12."
+
+
+Algorithm Problem 3:
+Implement an algorithm for making a simple calculator with all the operators (+,-,*,/,%)
+
+
+1. Start by asking the user to input num1 and num2
+2. Next ask the user for an operator (+,-,*,/,%)
+       - If operator is == '+' then result = num1 + num2
+       - Else if operator == '-' then result = num1 - num2
+       - Else if operator = '*' then result = num1 * num2
+       - Else if operator = '/' then
+              - if num2 != 0 then result = num1 / num2
+              - else if num2 == 0 display an error message "Division by zero is not allowed!"
+       - Else if operator = '%' then
+              - if num2 !=  0 then result = num1 % num2 
+              - else if num2 == 0 display an error message "Division by zero is not allowed!"
+       - Else if the user inputs an operator not amongst the ones listed above, display an error message "Operator is incorrect"
+3. Print result 
+
