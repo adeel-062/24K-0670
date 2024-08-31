@@ -1,1 +1,18 @@
+Algorithm Problem 1: 
+Implement an algorithm for determining if N is a divisor of a M (i.e. 2 is a divisor of 6)
+If so, determine if it’s an even number or odd number as well.
 
+[We will use the modulus/remainder (%) operator which yields a remainder when the first operand is divided by the second]
+
+1. Start by inputting values of M and N
+
+2. Check if N is a divisor of M
+       N is a divisor of M only if M % N == 0
+
+3. If N is a divisor of M, determine if N is even or odd
+       N is even if N % 2 == 0 
+       N is odd if N % 2 != 0
+
+
+
+Algorithm Problem 2:
