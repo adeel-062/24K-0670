@@ -1,6 +1,5 @@
-Algorithm Problem 1: 
-Implement an algorithm for determining if N is a divisor of a M (i.e. 2 is a divisor of 6)
-If so, determine if it’s an even number or odd number as well.
+Algorithm Problem 1: Implement an algorithm for determining if N is a divisor of a M (i.e. 2 is a divisor of 6) If so, determine if it’s an even number or odd number as well.
+
 
 [We will use the modulus/remainder (%) operator which yields a remainder when the first operand is divided by the second]
 
@@ -13,8 +12,8 @@ If so, determine if it’s an even number or odd number as well.
 
 
 
-Algorithm Problem 2:
-Implement an algorithm where the user enters a number, and an appropriate month is displayed.
+Algorithm Problem 2: Implement an algorithm where the user enters a number, and an appropriate month is displayed.
+
 
 [We will set the months of the year to their corresponding numbers from 1 to 12 for e.g. January = 1, February = 2.....November = 11, Deceember = 12]
 
@@ -23,8 +22,8 @@ Implement an algorithm where the user enters a number, and an appropriate month 
 3. If the number is outiside of that range, display an error message "Invalid number! Please enter a number between 1 and 12."
 
 
-Algorithm Problem 3:
-Implement an algorithm for making a simple calculator with all the operators (+,-,*,/,%)
+
+Algorithm Problem 3: Implement an algorithm for making a simple calculator with all the operators (+,-,*,/,%)
 
 
 1. Start by asking the user to input num1 and num2
@@ -40,4 +39,49 @@ Implement an algorithm for making a simple calculator with all the operators (+,
               - else if num2 == 0 display an error message "Division by zero is not allowed!"
        - Else if the user inputs an operator not amongst the ones listed above, display an error message "Operator is incorrect"
 3. Print result 
+
+
+
+Psuedocode Problem 1: Find the maximum number in any of three variables
+
+1. START
+2. INPUT A, B, C
+3. IF A >= B AND A >= C THEN
+       maximum = A
+   ELSE IF B >= A AND B >= C THEN
+       maximum = B
+   ELSE
+       maximum = C
+4. PRINT maximum
+5. STOP
+
+
+
+Pseudocode Problem 2: Take three variables as input and add them without using the '+' operator
+
+1. START
+2. INPUT A,B,C
+3. SET
+       result = 0
+4. result = A * -1
+5. result = result - B
+6. result = result - C
+7. result = result * -1
+8. PRINT result
+9. STOP
+
+
+       
+Pseudocode Problem 3: Create a small calculator which only does ‘+’ or ‘-‘Operations. (Hint: Take three variable inputs with one being used for the operator)
+
+1. START
+2. Input num1, op, num2
+3. IF op == '+' THEN 
+       result = num1 + num2
+   ELSE IF op == '-' THEN
+       result = num1 - num2
+   ELSE
+       PRINT "Invalid operator! Please use '+' or '-'"
+4. STOP
+
 
